@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Util;
+
+use App\Interfaces\FileReport;
+use Illuminate\Http\Request;
+
+class PdfReport implements FileReport
+{
+    public function generate(Request $request): void
+    {
+
+    }
+}
